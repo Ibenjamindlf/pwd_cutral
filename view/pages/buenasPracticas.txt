@@ -1,0 +1,6 @@
+ 
+Buenas practicas
+loweCamelCase en variables -> $textoMayor =
+No usar breaks -> Si nosotros queremos hacer un recorrido parcial (while) y si queremos hacer un recorrido total (for o foreach)
+NO tener echos en Controller y Model -> la unica capa encargada de mostrar los valores es la capa de la vista (view)
+Cuando se crean funciones (function o public function) -> un solo retorno
